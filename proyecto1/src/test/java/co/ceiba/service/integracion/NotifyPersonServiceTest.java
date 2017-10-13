@@ -1,10 +1,12 @@
-package co.ceiba.service;
+package co.ceiba.service.integracion;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import co.ceiba.domain.Person;
+import co.ceiba.service.EmailService;
+import co.ceiba.service.NotifyPersonService;
 import co.ceiba.testdatabuilder.PersonTestDataBuilder;
 
 public class NotifyPersonServiceTest {

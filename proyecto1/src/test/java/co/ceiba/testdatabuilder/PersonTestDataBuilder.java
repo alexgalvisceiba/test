@@ -16,13 +16,13 @@ public class PersonTestDataBuilder {
 		this.name = name;
 		return this;
 	}
-	
+
 	public PersonTestDataBuilder withLastName(String lastName) {
 		this.lastName = lastName;
 		return this;
 	}
 
 	public Person build() {
-		return new Person(this.name,this.lastName);
+		return new Person(this.name, this.lastName);
 	}
 }
