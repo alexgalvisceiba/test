@@ -1,0 +1,11 @@
+build/
+.gradle
+.scannerwork
+bin/
+*.classpath
+*.project
+*.settings
+jacoco
+*logs/
+*dist
+*tmp
